@@ -1,0 +1,24 @@
+Information of the populations:
+
+Population ID	  Key	       Mountain		No. of individuals	Longitude 	Latitude	Region		Sampling_altitude
+1 		  Ch		El Chico		8		-98.754111	20.207917	SMOr		2976
+
+2		  Pe	 	Cofre de Perote		5		-97.149448	19.492067	TMVB		4058
+
+3		  Ci		Citlatépetl		10		-97.294806	19.006306	TMVB		4210
+
+4		  Ne		Sierra Negra		10		-97.310833	18.982667	TMVB		4420
+
+5		  Ma		Malinche		9		-98.034417	19.24075	TMVB		4055
+
+6		  Tl		Tláloc			10		-98.711306	19.411583	TMVB		4075
+
+7 		  Iz		Iztaccíhuatl		8		-98.642611	19.140889	TMVB		4201
+
+8 		  Pp		Popocatépetl		8		-98.6365	19.050333	TMVB		4120
+
+9 		  Aj		Ajusco			7		-99.256944	19.212944	TMVB		3900
+
+10 		  To		Nevado de Toluca	8		-99.772389	19.126306	TMVB		4037
+
+11 		  Bl		Cerro Blanco		9		-100.236444	19.569861	TMVB		3524
