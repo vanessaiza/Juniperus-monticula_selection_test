@@ -1,1 +1,22 @@
+Bayescan test
 
+The folder "Bayescan_data" contains:
+	1. The file "batch_1.plink_wp.ped" which contains the data of 13 populations of _Juniperus monticula_ downloaded from article: 
+	"Long‐term in situ persistence of biodiversity in tropical sky islands revealed by landscape genomics"
+	https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14461
+
+	2. The file "data_wp" which is the result of convert the file batch_1.plink_wp.ped to bayescan format, using the program PGDspider. 
+	I exclude the populations Nevado de Colima and Tancítaro as the article suggest.
+
+	3. The files "data_wp.sel", "data_wp_AccRte", "data_wp_fst", "data_wp_Verif" are the output of run the program 
+	Bayescan v 2.1 using the following parameter  values: prior odds for the neutral
+	model was set to 100, 5000 of outputted iterations, thinning interval size of 10, 20 pilot runs,
+	pilot runs of 5000 iterations, burn-in length of 50,000 iterations.
+	The command line was the follow: ./bayescan data_wp -pr_odds 100 -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000
+
+The folder "Script" contains:
+	1. The srcript "Bayescan_test.r" to plot figures from the outputs files of Bayescan software
+	2. The script with the function "plot_R.r"
+
+
+Once you have run the Bayescan analysis you must run the script "juniperus_selection_test.R" to obtain the results.
