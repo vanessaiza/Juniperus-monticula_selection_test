@@ -1,4 +1,4 @@
-Bayescan test
+Bayescan test aims at identifying candidate loci under natural selection from genetic data, using differences in allele frequencies between populations
 
 The folder "Bayescan_data" contains:
 	1. The file "batch_1.plink_wp.ped" which contains the data of 13 populations of _Juniperus monticula_ downloaded from article: 
