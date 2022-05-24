@@ -9,7 +9,7 @@ The folder "Bayescan_data" contains:
 	I exclude the populations Nevado de Colima and Tancítaro as the article suggest.
 
 	3. The files "data_wp.sel", "data_wp_AccRte", "data_wp_fst", "data_wp_Verif" are the output of run the program 
-	Bayescan v 2.1 using the following parameter  values: prior odds for the neutral
+	Bayescan v2.1 using the following parameter values: prior odds for the neutral
 	model was set to 100, 5000 of outputted iterations, thinning interval size of 10, 20 pilot runs,
 	pilot runs of 5000 iterations, burn-in length of 50,000 iterations.
 	The command line was the follow: ./bayescan data_wp -pr_odds 100 -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000
