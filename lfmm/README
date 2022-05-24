@@ -6,8 +6,8 @@ The folder "data" contains:
 https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14461
 2. The file "datos_coord" which contains the geographic coordinates in decimal format
 
-The folder "plots" contains the plots results of running the LFMM
+The script "LFMM.r" must be run with the data contains in the folder "data". The outputs files of this is not presented to save space
 
-The script "LFMM.r" must be run with the data contains in the folder "data". The output of this is not presented to save space
+The folder "plots" contains the plots results of running the LFMM analysis
 
 The 19 climatic layers downloaded from WorldClim with ext .asc are not presented to save space
