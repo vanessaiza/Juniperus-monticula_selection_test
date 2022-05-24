@@ -1,6 +1,6 @@
 LFMM test serves to detect specific loci with strong environmental associations suggestive of natural selection for local adaptation
 
-The folder "bio_world" contains the 19 climatic layers downloades from WorldClim with ext .asc.
+The 19 climatic layers downloaded from WorldClim with ext .asc are not presented to save space.
 
 The folder "data" contains:
 1. The file "batch_1.plink_wp.ped" which contains the data of 13 populations of _Juniperus monticula_ downloaded from article:
