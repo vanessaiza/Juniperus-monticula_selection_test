@@ -6,3 +6,5 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14461
 The folder "bayescan" contains the script and the data to run the Bayescan analysis
 
 The folder "lfmm" contains the script and the data to run the LFMM analysis
+
+The file "Information of the populations.txt" contains the number of individual, lat/long, region and key name of mountains sampled in this study.
