@@ -152,7 +152,7 @@ sum(q.iso<0.01 & abs(z.iso)>2)
 sum(q.mtdry<0.01 & abs(z.mtdry)>2)
 
 #Write table with the number of outliers of each climate variable
-outliers_results<-cbind(sum(q.pdry<0.01 & abs(z.pdry)>2),sum(q.pwarm<0.01 & abs(z.warm)>2),sum(q.iso<0.01 & abs(z.iso)>2),sum(q.mtdry<0.01 & abs(z.mtdry)>2))
+outliers_results<-cbind(sum(q.pdry<0.01 & abs(z.pdry)>2),sum(q.pwarm<0.01 & abs(z.pwarm)>2),sum(q.iso<0.01 & abs(z.iso)>2),sum(q.mtdry<0.01 & abs(z.mtdry)>2))
 outliers_results
 colnames(outliers_results)<-c("Precipitation of Driest Quarter","Precipitation of Warmest Quarter","Isothermality","Mean Temperature of Driest Quarter")
 write.table(outliers_results, "Outliers_results", sep="\t", quote=F, row.names=F)
