@@ -147,17 +147,17 @@ dev.off()
 ##To know how many of the significant ones (Q < 0.05) are also of large effect we can look 
 ##at the set of significant SNPs that also have very high or very low z-scores.
 sum(q.pdry<0.01 & abs(z.pdry)>2)
-sum(q.pwarm<0.01 & abs(z.pwarm)>2)
+sum(q.warm<0.01 & abs(z.pwarm)>2)
 sum(q.iso<0.01 & abs(z.iso)>2)
 sum(q.mtdry<0.01 & abs(z.mtdry)>2)
 
 #Write table with the number of outliers of each climate variable
-outliers_results<-cbind(sum(q.pdry<0.01 & abs(z.pdry)>2),sum(q.pwarm<0.01 & abs(z.pwarm)>2),sum(q.iso<0.01 & abs(z.iso)>2),sum(q.mtdry<0.01 & abs(z.mtdry)>2))
+outliers_results<-cbind(sum(q.pdry<0.01 & abs(z.pdry)>2),sum(q.pwarm<0.01 & abs(z.warm)>2),sum(q.iso<0.01 & abs(z.iso)>2),sum(q.mtdry<0.01 & abs(z.mtdry)>2))
 outliers_results
 colnames(outliers_results)<-c("Precipitation of Driest Quarter","Precipitation of Warmest Quarter","Isothermality","Mean Temperature of Driest Quarter")
 write.table(outliers_results, "Outliers_results", sep="\t", quote=F, row.names=F)
 
 #We can combine all the z and Q-values into a table and save for use in other software.
-lfmm.results <- cbind(z.pdry, q.pdry, z.pwarm, q.pwarm, z.iso, q.iso, z.mtdry, q.mtdry)
+lfmm.results <- cbind(z.pdry, q.pdry, z.pwarm, q.warm, z.iso, q.iso, z.mtdry, q.mtdry)
 head(lfmm.results)
 write.table(lfmm.results, "lfmm.results", sep="\t", quote=F, row.names=F)
