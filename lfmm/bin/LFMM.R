@@ -157,7 +157,19 @@ outliers_results
 colnames(outliers_results)<-c("Precipitation of Driest Quarter","Precipitation of Warmest Quarter","Isothermality","Mean Temperature of Driest Quarter")
 write.table(outliers_results, "Outliers_results", sep="\t", quote=F, row.names=F)
 
-#We can combine all the z and Q-values into a table and save for use in other software.
+#We can combine all the z and Q-values into a table and add the column locus_ID to our data frame
 lfmm.results <- cbind(z.pdry, q.pdry, z.pwarm, q.warm, z.iso, q.iso, z.mtdry, q.mtdry)
-head(lfmm.results)
-write.table(lfmm.results, "lfmm.results", sep="\t", quote=F, row.names=F)
+locus_ID<-c(1:2904)
+lfmm.results1<-cbind(lfmm.results, locus_ID)
+write.table(lfmm.results1, "lfmm.results1.txt", sep="\t", quote=F, row.names=F)
+
+#convert to data frame
+df <- data.frame(rbind (lfmm.results1))
+class(df)
+
+#Filter to check the outlier list (locus_ID)
+df %>% filter(q.pdry<0.01 & abs(z.pdry)>2)
+df %>% filter(q.warm<0.01 & abs(z.pwarm)>2)
+df %>% filter(q.iso<0.01 & abs(z.iso)>2)
+df %>% filter(q.mtdry<0.01 & abs(z.mtdry)>2)
+
