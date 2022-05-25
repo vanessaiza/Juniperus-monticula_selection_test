@@ -18,5 +18,6 @@ The folder "bin" contains:
 	1. The srcript "Bayescan_test.r" to plot figures from the outputs files of Bayescan software
 	2. The script with the function "plot_R.r"
 
+The folder "plots" contains the plots results of running the script "Bayescan_test.R"
 
-Once you have run the Bayescan analysis you must run the script "juniperus_selection_test.R" to obtain the results.
+Once you have run the Bayescan analysis you must run the script "Bayescan_test.R" to obtain the results.
