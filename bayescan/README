@@ -4,9 +4,9 @@ The folder "Bayescan_data" contains:
 	1. The file "batch_1.plink_wp.ped" which contains the data of 13 populations of Juniperus monticula downloaded from the article: 
 	"Long‐term in situ persistence of biodiversity in tropical sky islands revealed by landscape genomics"
 	https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14461
+	I exclude the populations Nevado de Colima and Tancítaro as the article suggest.
 
 	2. The file "data_wp" which is the result of convert the file batch_1.plink_wp.ped to bayescan format, using the program PGDspider. 
-	I exclude the populations Nevado de Colima and Tancítaro as the article suggest.
 
 	3. The files "data_wp.sel", "data_wp_AccRte", "data_wp_fst", "data_wp_Verif" are the output of run the program 
 	Bayescan v2.1 using the following parameter values: prior odds for the neutral
