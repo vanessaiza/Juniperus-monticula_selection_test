@@ -20,4 +20,4 @@ The folder "bin" contains:
 
 The folder "plots" contains the plots results of running the script "Bayescan_test.R"
 
-Once you have run the Bayescan analysis you must run the script "Bayescan_test.R" to obtain the results.
+Once you have run the Bayescan analysis you must run the script "Bayescan_test.R" contained in the folder "bin" to obtain the results.
