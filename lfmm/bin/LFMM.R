@@ -85,7 +85,7 @@ project = lfmm("batch_1.plink_wp.lfmm", "clim.env", K = 3, repetitions = 5, CPU 
 z.pdry = z.scores(project, K = 3, d = 1)
 z.pdry <- apply(z.pdry, 1, median)
 
-##We need to calculate ?? (the "genomic inflation factor")
+##We need to calculate (the "genomic inflation factor")
 lambda.pdry = median(z.pdry^2)/qchisq(0.5, df = 1)
 
 ##Calculate the "adjusted" P-values
