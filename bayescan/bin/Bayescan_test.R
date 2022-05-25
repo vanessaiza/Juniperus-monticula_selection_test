@@ -20,6 +20,8 @@ dev.off()
 #Check results
 summary(results1)
 
+#Check the outlier list (locus id)
+head(results1$outliers)
 
 ##Another ways to visualize the results:
 #Load your file ex: "output_fst.txt"
