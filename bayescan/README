@@ -14,7 +14,7 @@ The folder "Bayescan_data" contains:
 	pilot runs of 5000 iterations, burn-in length of 50,000 iterations.
 	The command line was the follow: ./bayescan data_wp -pr_odds 100 -n 5000 -thin 10 -nbp 20 -pilot 5000 -burn 50000
 
-The folder "Script" contains:
+The folder "bin" contains:
 	1. The srcript "Bayescan_test.r" to plot figures from the outputs files of Bayescan software
 	2. The script with the function "plot_R.r"
 
