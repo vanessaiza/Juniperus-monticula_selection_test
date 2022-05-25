@@ -8,7 +8,7 @@ The folder "Bayescan_data" contains:
 
 	2. The file "data_wp" which is the result of convert the file batch_1.plink_wp.ped to bayescan format, using the program PGDspider. 
 
-	3. The files "data_wp.sel", "data_wp_AccRte", "data_wp_fst", "data_wp_Verif" are the output of run the program 
+	3. The files "data_wp.sel", "data_wp_AccRte", "data_wp_fst", "data_wp_Verif" are the output of running the program 
 	Bayescan v2.1 using the following parameter values: prior odds for the neutral
 	model was set to 100, 5000 of outputted iterations, thinning interval size of 10, 20 pilot runs,
 	pilot runs of 5000 iterations, burn-in length of 50,000 iterations.
