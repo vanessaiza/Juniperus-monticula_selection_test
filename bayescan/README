@@ -1,7 +1,7 @@
 Bayescan test aims at identifying candidate loci under natural selection from genetic data, using differences in allele frequencies between populations
 
 The folder "Bayescan_data" contains:
-	1. The file "batch_1.plink_wp.ped" which contains the data of 11 populations of Juniperus monticula downloaded from the article: 
+	1. The file "batch_1.plink_wp.ped" which contains the data of 11 populations of Juniperus monticola downloaded from the article: 
 	"Long‐term in situ persistence of biodiversity in tropical sky islands revealed by landscape genomics"
 	https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14461
 	I exclude the populations Nevado de Colima and Tancítaro as the article suggest.
